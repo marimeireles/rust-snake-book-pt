@@ -1,16 +1,16 @@
 # Cargo and Dependencies
 
-To initialize a new project, run `cargo new`:
+Para inicializar um novo projeto, execute `cargo new`:
 
 ```shell
 $ cargo new rusty_snake
 ```
 
-Cargo generated a new new folder called `rusty_snake`. `cd` into the directory to check out what cargo generated.
+Cargo gerou um novo diretório chamado `rusty_snake`. `cd` no diretório para checar o que o cargo gerou.
 
-Open the file `cargo.toml` in the editor of your choice. This is called a manifest, and it contains all of the metadata that Cargo needs to compile your project.
+Abra o arquivo `cargo.toml` no editor da sua escolha. Isso é chamado manifesto, e contém todos os metadados que o Cargo precisa para compilar seu projeto.
 
-It should look like this:
+Deve ser algo parecido com isso:
 
 `cargo.toml`
 
@@ -18,23 +18,23 @@ It should look like this:
 [package]
 name = "rusty-snake"
 version = "0.1.0"
-authors = ["Your Name"]
+authors = ["Seu Nome"]
 edition = "2018"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+# Veja mais palavras chaves e definições em https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
 
 ```
 
-To use SDL2 in rust, we need to add the sdl2 crate as dependency.
+Para usar SDL2 em Rust nós precisamos adicionar o crate de SDL2 como uma dependência.
 
-Add the following line in the [dependencies] section:
+Adicione as seguintes linhas na sessão [dependencies]:
 `sdl2 = "0.30.0"`
 
-open `src/main.rs`
+Abra `src/main.rs`
 
-Substitute the content of the file with the following code:
+Substitua o conteúdo do arquivo com o seguinte código:
 
 ```rust
 // Dependencies go here
@@ -69,7 +69,7 @@ fn main() {
 }
 ```
 
-Right in the beginning of the File, in the section `// Dependencies go here`, add the following lines:
+Bem no começo do arquivo na sessão `// Dependencies go here`, adicione as seguintes linhas:
 
 ```rust
 use sdl2::video::Window;
@@ -78,5 +78,5 @@ use sdl2::render::Canvas;
 use sdl2::EventPump;
 ```
 
-In your terminal, go into the folder `/rusty-snake`, and run the command `cargo run`.
-What do you see? To get rid of this warning, we need to call `fn init` in `main()`.
+No seu terminal vá até a pasta `/rusty-snake`, e execute o comando `cargo run`.
+O que você vê? Para se livrar desse warning precisamos chamar `fn init` na `main()`.
