@@ -1,20 +1,20 @@
-# Installation
+# Instalação
 
-## Standard Installation of the Rust Compiler and Tools
+## Instalação Padrão do Compilador do Rust e suas Ferramentas
 
-### Linux and MacOS Users
+### Usuários de Linux e MacOS
 
-For these platforms, it is recommended to use the [Official Rust Installation Process](https://rustup.rs/) via `rustup.rs`. When asked, the default settings (including the `stable` compiler) are suitable for this course.
+Para essas plataformas, é recomendado o uso do[Processo Oficial de Instalação do Rust](https://rustup.rs/) via `rustup.rs`. Quando perguntada, as configurações padrões (incluindo o compilador `stable`) são adequados para este curso.
 
-This will process will install a number of tools required for this course, including `rustc`, `cargo`, and `rustup`.
+Esse processo vai instalar várias ferramentas que serão utilizadas nesse curso, incluindo `rustc`, `cargo`, e `rustup`.
 
-### Windows Users
+### Usuários do Windows
 
-Windows Users may need to install additional tools. Please refer to the [following guide](https://doc.rust-lang.org/book/ch01-01-installation.html#installing-rustup-on-windows) for installation instructions for Windows.
+Usuários do Windows podem ter que instalar ferramentas adicionais. Por favor cheque o [guia de instalação](https://doc.rust-lang.org/book/ch01-01-installation.html#installing-rustup-on-windows) para Windows.
 
 ## Simple DirectMedia Layer
 
-Simple DirectMedia Layer is a cross-platform development library designed to provide low level access to audio, keyboard, mouse, joystick, and graphics hardware via OpenGL and Direct3D. It is written in C, and we will only use Rust bindings later on, you need to install the C library separately.
+Simple DirectMedia Layer é uma biblioteca de desenvolvimento multiplattaforma criada para oferecer acesso de baixo nível à áudio, teclado, mouse, joystick, e gráficos via OpenGL and Direct3D. É escrita em C, e nós só usaremos as Rust bindings mais tarde, você precisa instalar a biblioteca de C separadamente.
 
 ### MacOS
 
@@ -30,8 +30,8 @@ sudo apt-get install libsdl2-dev
 
 ### Windows
 
-Follow the instructions [here](https://github.com/Rust-SDL2/rust-sdl2#windows-msvc), following the steps "For Rustup users".
+Siga as instruções [aqui](https://github.com/Rust-SDL2/rust-sdl2#windows-msvc), seguindo os passos "For Rustup users".
 
-### Other Operating Systems
+### Outros sistemas operacionais
 
-[Download](https://www.libsdl.org/download-2.0.php) and install the development library according to your system.
+[Baixe](https://www.libsdl.org/download-2.0.php) e instale a biblioteca de desenvolvimento de acordo com o seu sistema.
