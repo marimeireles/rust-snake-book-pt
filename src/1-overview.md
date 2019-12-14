@@ -1,7 +1,7 @@
-# Learning Rust by Coding a Game of Snake
+# Aprendendo Rust Programando um Jogo de Snake
 
 ## [snake.rustbridge.com](https://snake.rustbridge.com/)
 
-In this tutorial you will write a very simple game engine for a snake game, while learning the basics of Rust. You can also use and adapt the game engine to write any other old school pixely 2D game.
+Neste tutorial você vai escrever uma game engine muito simples para o jogo snake, enquanto aprende o básico de Rust. Você também pode usar e adaptar a game engine para escrever qualquer jogo antigo pixelado 2D que você queira.
 
-This tutorial is still in beta. If you find typos or error or have ideas for improvement, please file an issue or a pull request at [Rusty-Snake-Book](https://github.com/rustbridge/Rusty-Snake-Book)
+Esse tutorial ainda está em beta. Se você encontrar algum typo ou erro ou tiver ideias para melhorá-lo, por favor crie um issue e um pull request em [Rusty-Snake-Book](https://github.com/rustbridge/Rusty-Snake-Book). Caso você encontre algum erro na tradução, por favor crie um issue em [rust-snake-book-pt](https://github.com/marimeireles/rust-snake-book-pt).
